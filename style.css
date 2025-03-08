@@ -10,19 +10,25 @@
     font-size: 90px;
 }
 
-.s_one_two {
+section {
     display: flex;
     gap: 15px;
     padding: 15px 15px 15px 15px;
     margin: 15px 15px 15px 15px;
 }
-.one_two {
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 15px;
     width: 50%;
     height: 50%;
 }
+
 #div_one {
-    flex: 1;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #div_two img {
     width: 100%;
@@ -38,3 +44,19 @@
     font-size: 30px;
 }
 
+#div_four {
+    margin-bottom: 20px;
+}
+#div_three img {
+    width: 100%;
+    height: 100%;
+}
+#strong_four {
+    font-size: 40px;
+}
+#h1_four {
+    font-size: 60px;
+}
+#p_four {
+    font-size: 30px;
+}
