@@ -9,3 +9,19 @@
     color: #89C8C8;
     font-size: 90px;
 }
+
+#div_one {
+    width: 50%;
+    height: 50%;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 15px;
+}
+#strong_one {
+    font-size: 40px;
+}
+#h1_one {
+    font-size: 60px;
+}
+#p_one {
+    font-size: 30px;
+}
