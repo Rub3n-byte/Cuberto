@@ -10,6 +10,14 @@
     font-size: 90px;
 }
 
+#s_one_two{
+    background-color: #F5EFF4;
+}
+
+#s_one_two{
+    background-color: #FAF5F3;
+}
+
 section {
     display: flex;
     gap: 15px;
