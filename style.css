@@ -148,8 +148,8 @@ h1 {
 /* fin de estilos para la ultima sección */
 
 /* estilos para la media query */
-@media (min-width: 2000px) {
-    section {
+@media (min-width: 20px) {
+    .s_one_six {
         display: block !important;
     }
     .d_o_s {
@@ -158,5 +158,14 @@ h1 {
         padding: 0 !important;
         margin: 0 !important;
     }
-    
+    .s_final {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    .d_final {
+        flex: 0 0 48%;
+    }
 }
