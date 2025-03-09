@@ -1,3 +1,4 @@
+/* estilos para el primer apartado */
 .zero {
     width: 100%;
     height: 100%;
@@ -9,23 +10,15 @@
     color: #89C8C8;
     font-size: 90px;
 }
-
-#s_one_two{
-    background-color: #F5EFF4;
-}
-
-#s_one_two{
-    background-color: #FAF5F3;
-}
-
-section {
+/* estilos generales */
+.s_one_six {
     display: flex;
     gap: 15px;
     padding: 15px 15px 15px 15px;
     margin: 15px 15px 15px 15px;
 }
 
-div {
+.d_o_s {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -38,6 +31,13 @@ h1 {
     color: #808080;
 }
 
+/* fin de estilos generales */
+
+/* estilos para la primera sección */
+
+#s_one_two{
+    background-color: #F5EFF4;
+}
 #div_one {
     margin-bottom: 10px;
 }
@@ -55,6 +55,13 @@ h1 {
     font-size: 30px;
 }
 
+/* fin de estilos para la primera seccion */
+
+/* estilos para la segunda sección */
+
+#s_three_four{
+    background-color: #FAF5F3;
+}
 #div_four {
     margin-bottom: 20px;
 }
@@ -70,4 +77,32 @@ h1 {
 }
 #p_four {
     font-size: 30px;
+}
+
+/* fin de estilos para la segunda sección */
+
+/* estilos para la tercera sección */
+
+#s_five_six{
+    background-color: #F2F9F8;
+}
+#div_five {
+    margin-bottom: 10px;
+}
+#div_six img {
+    width: 100%;
+    height: 100%;
+}
+#strong_five {
+    font-size: 40px;
+}
+#h1_five {
+    font-size: 60px;
+}
+#p_five {
+    font-size: 30px;
+}
+#div_six img {
+    width: 100%;
+    height: 100%;
 }
