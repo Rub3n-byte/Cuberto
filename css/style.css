@@ -148,7 +148,7 @@ h1 {
 /* fin de estilos para la ultima sección */
 
 /* estilos para la media query */
-@media (min-width: 768px) {
+@media (max-width: 1000px) {
     .s_one_six {
         display: block !important;
     }
